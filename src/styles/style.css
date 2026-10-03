@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --primary-font-family: 'Instrument Serif', serif;
+    --secondary-font-family: 'Manrope', sans-serif;
+    --normal-font: 400;
+    --italic-font: 400 italic;
+    --bold-font: 700;
+    --primary-color: #0B0A66;
+    --secondary-color: #FAF9F6;
+    --light-blue-span: #1D4ED8;
+    --light-gray-span: #C9C5BA;
+    --semi-gray-span: #605E57;
+    --semi-black-color: #111;
+}
+
