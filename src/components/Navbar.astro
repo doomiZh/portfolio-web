@@ -1,0 +1,44 @@
+<nav>
+    <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+    </ul>
+</nav>
+
+<style>
+    nav {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 0 auto;
+        height: 50px;
+        background-color: var(--primary-color);
+        padding: 0px 80px;
+    }
+
+    nav a {
+        color: var(--secondary-color);
+    }
+
+    nav a:hover {
+        color: var(--light-blue-span);
+    }
+
+    nav ul {
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    nav ul li {
+        font-family: var(--secondary-font-family);
+        font-weight: var(--normal-font);
+        font-size: 14px;
+    }
+
+</style>
